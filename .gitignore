@@ -1,0 +1,29 @@
+# Covers OOPS-exercises working with IntelliJ-Projects
+# put this file in root of repository
+
+# ignore projectfiles in root. This is not a project-directory.
+/.idea/
+/*.iml
+
+# User-specific stuff in .idea-directory of a project-directory
+# except
+#   misc.xml    defining the jdk and the location of the repo
+#   modules.xml defining the location of the .iml
+#   vcs.xml     defining the used vcs
+#   .iml        defining the location of source-folders and JUnit
+
+**/.idea/**
+!**/.idea/misc.xml
+!**/.idea/modules.xml
+!**/.idea/vcs.xml
+!**/.idea/*.iml
+
+# compiled classes
+out/
+target/
+production/
+bin/
+
+
+# MacOS metafiles
+.DS_Store
